@@ -1,9 +1,9 @@
 -- Script by NOT a scammer#6336
 --Kavo ui by xHeptic
 -- Tool giver by SprinHub
-local b = Instance.new("BindableFunction")
-function b.OnInvoke(response) if response == "Copy Link" then if setclipboard then setclipboard("https://www.youtube.com/channel/UCW8W-l1HD0cz2zyTpDCNtWQ") end end end
-game:GetService("StarterGui"):SetCore("SendNotification", {Title = "Maybe sub?", Text = "Credit to all the YouTubers who taught me how to script", Duration = 5, Callback = b, Button1 = "Copy Link"})
+    local b = Instance.new("BindableFunction")
+game:GetService("StarterGui"):SetCore("SendNotification", {Title = "You are Whitelisted!", Text = "Have fun with my script. ", Duration = 5, Callback = b, Button1 = "Yesisr."})
+end
 if game.PlaceId ~= 1962086868 then
     game.Players.LocalPlayer:Kick("This script doesn't work on this game!")
 end 
