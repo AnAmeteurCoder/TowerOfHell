@@ -3,7 +3,6 @@
 -- Tool giver by SprinHub
     local b = Instance.new("BindableFunction")
 game:GetService("StarterGui"):SetCore("SendNotification", {Title = "You are Whitelisted!", Text = "Have fun with my script. ", Duration = 5, Callback = b, Button1 = "Yesisr."})
-end
 if game.PlaceId ~= 1962086868 then
     game.Players.LocalPlayer:Kick("This script doesn't work on this game!")
 end 
